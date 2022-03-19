@@ -1,0 +1,18 @@
+.detail img {
+    width: 100%;
+}
+
+.detail h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.detail address::before {
+    content: "- ";
+}
+
+.detail p {
+    margin-top: 0.5rem;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
